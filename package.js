@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'practicalmeteor:mocha-core',
-  summary: 'Fibers aware mocha server side wrappers. Internal package - use practicalmeteor:mocha.',
-  version: '1.0.1',
+  name: 'tunguska:mocha-core',
+  summary: 'Fibers aware mocha server side wrappers. Based off practicalmeteor:mocha-core.',
+  version: '1.0.0',
   testOnly: true,
-  git: 'https://github.com/practicalmeteor/meteor-mocha-core.git'
+  git: 'https://github.com/robfallows/tunguska-mocha-core.git'
 });
 
 Npm.depends({
-  mocha: '2.4.5'
+  mocha: '5.0.4'
 });
 
 Package.onUse(function (api, where) {
